@@ -154,10 +154,13 @@ console.log(babyOne.play())
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global Binding - Global binding occurs when the `this` keyword is called from the global binding scope. `this` will then refer to the window/console object.
+
+  2. Implicit Binding - Implicit binding occurs on object methods when the `this` keyword refers to whatever `this` is refering to.
+
+  3. Explicit Binding - Explicit binding occurs when .call, .apply, and .bind are used
+
+  4. New Binding -  New binding occurs when a function is called with the new keyword. Whatever is passed into the function becomes `this`.
 */
 
 
